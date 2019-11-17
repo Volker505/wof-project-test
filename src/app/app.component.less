@@ -1,0 +1,103 @@
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.flex-2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+///////
+.title {
+  font-size: 13px;
+  line-height: 20px;
+
+  /* color-black-100 */
+  color: #909090;
+}
+
+.count {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.3px;
+  font-feature-settings: 'liga' off;
+
+  /* color-black-300 */
+  color: #333333;
+}
+
+.app-content_container {
+  height: 96px;
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+
+  display: flex;
+
+  .app-content_info {
+    flex-grow: 1;
+    margin: 24px;
+
+
+  }
+
+  .app-content_circle {
+    width: 48px;
+    height: 48px;
+
+    background: #1771E6;
+    border-radius: 50px;
+  }
+
+}
+
+
+.table {
+  border: 1px solid #E7E8EA;
+  box-sizing: border-box;
+  border-radius: 8px;
+  //border-collapse: collapse;
+  .tr-content {
+    height: 80px;
+    border-bottom: 1px solid #E7E8EA;
+
+    .td-title {
+      width: 46%;
+      padding: 28px;
+
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      letter-spacing: -0.3px;
+      font-feature-settings: 'liga' off;
+
+      /* color-black-300 */
+
+      color: #333333;
+    }
+
+    .td-content1 {
+      width: 19%;
+    }
+
+    .td-content2 {
+      width: 19%;
+    }
+
+    .td-edit {
+      width: 16%;
+    }
+  }
+
+
+
+}
