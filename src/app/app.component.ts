@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'wof-project-test';
+
+  text = 'fsdkjfaskd falskdjfl asjdlf jasldkf jlasdjklfkjasdlkfjasd' +
+    ' fsdkjfaskd falskdjfl asjdlf jasldkf jlasdjklfkjasdlkfjasd fsdkjfaskd falskdjfl asjdlf jasldkf jlasdjklfkjasdlkfjasd fsdkjfaskd falskdjfl asjdlf jasldkf ' +
+    'jlasdjklfkjasdlkfjasd fsdkjfaskd falskdjfl asjdlf jasldkf ' +
+    'jlasdjklfkjasdlkfjasd fsdkjfaskd falskdjfl asjdlf jasldkf ' +
+    'jlasdjklfkjasdlkfjasd';
 }
